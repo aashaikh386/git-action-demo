@@ -1,0 +1,7 @@
+on: [push]
+jobs:
+  Job-Messages-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "welcome nubeera"
+      - run: echo "current OS is ${{runner.os}}"
